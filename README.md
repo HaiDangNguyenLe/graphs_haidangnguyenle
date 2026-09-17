@@ -17,7 +17,16 @@ from graphs_haidangnguyenle import sp
 
 dist, path = sp.dijkstra(graph, source)
 ```
+### Breadth-First Search (Bonus)
 
+The library also implements Breadth-First Search (BFS) for traversing a graph level by level.
+
+```python
+from graphs_haidangnguyenle import bfs
+
+order = bfs.bfs(graph, source)
+print(order)
+```
 
 # Overview 
 
