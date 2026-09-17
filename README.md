@@ -1,3 +1,24 @@
+
+# graphs_haidangnguyenle
+
+`graphs_haidangnguyenle` is a Python library for working with graphs. The library implements Dijkstra's shortest path algorithm to find the shortest paths from a source vertex to other vertices in a weighted graph.
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install -e .
+```
+
+## Usage
+```python
+from graphs_haidangnguyenle import sp
+
+dist, path = sp.dijkstra(graph, source)
+```
+
+
 # Overview 
 
 The goal of this assignment is to assess your understanding of how to package a software library, as discussed in class.
