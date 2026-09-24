@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "graphs_haidangnguyenle"
 version = "0.1.0"
 description = "A Python library implementing Dijkstra's shortest path algorithm."
+readme = "README.md"
 requires-python = ">=3.8"
 
 [tool.setuptools.packages.find]
